@@ -1,4 +1,9 @@
 import { Project, Service, Course, Testimonial, BlogPost, Education, Certificate, Achievement, ProcessStep, FaqItem } from "@/app/data/types";
+
+import { ArrowUpRight, X, ChevronLeft, ChevronRight, Award, Code2, Users, Trophy } from "lucide-react";
+
+import { Brain, GraduationCap } from "lucide-react";
+
 export const skillsData = [
   {
     name: 'HTML',
@@ -145,7 +150,7 @@ export const PROJECTS: Project[] = [
     tags: ['AI', 'Automation', 'Video'],
     techStack: ['Python', 'FastAPI', 'OpenAI Agents SDK', 'Next.js', 'MoviePy'],
     liveUrl: 'https://snugglefable.vercel.app/',
-    githubUrl: 'https://github.com/arman229',
+    githubUrl: 'https://github.com/armanstack',
     category: 'AI'
   },
   {
@@ -156,7 +161,7 @@ export const PROJECTS: Project[] = [
     tags: ['AI', 'Interview', 'Analytics'],
     techStack: ['Next.js', 'FastAPI', 'Python', 'Docker'],
     liveUrl: 'https://ailiveinterviewer.vercel.app/',
-    githubUrl: 'https://github.com/arman229',
+    githubUrl: 'https://github.com/armanstack',
     category: 'AI'
   }, {
     id: '3',
@@ -166,7 +171,7 @@ export const PROJECTS: Project[] = [
     tags: ['E-Commerce', 'AI', 'RAG'],
     techStack: ['Python', 'FastAPI', 'Next.js', 'Docker', 'Pinecone', 'CLIP'],
     liveUrl: 'https://armanstore.vercel.app/',
-    githubUrl: 'https://github.com/arman229',
+    githubUrl: 'https://github.com/armanstack',
     category: 'AI'
   }, {
     id: '2',
@@ -176,7 +181,7 @@ export const PROJECTS: Project[] = [
     tags: ['AI', 'Recommendation'],
     techStack: ['Next.js', 'FastAPI', 'Docker', 'AI'],
     liveUrl: 'https://armanstylematch.vercel.app/',
-    githubUrl: 'https://github.com/arman229',
+    githubUrl: 'https://github.com/armanstack',
     category: 'AI'
   },
 
@@ -189,7 +194,7 @@ export const PROJECTS: Project[] = [
     tags: ['AI', 'Image Processing'],
     techStack: ['Next.js', 'Prompt Engineering', 'Gemini Model'],
     liveUrl: 'https://aiphotocraft.vercel.app/',
-    githubUrl: 'https://github.com/arman229',
+    githubUrl: 'https://github.com/armanstack',
     category: 'AI'
   },
   // {
@@ -200,7 +205,7 @@ export const PROJECTS: Project[] = [
   //   tags: ['Frontend', 'E-Commerce'],
   //   techStack: ['Next.js', 'shadcn/ui', 'CSS'],
   //   liveUrl: 'https://my-shopping-website-assignment.vercel.app/',
-  //   githubUrl: 'https://github.com/arman229',
+  //   githubUrl: 'https://github.com/armanstack',
   //   category: 'Web'
   // },
   {
@@ -211,7 +216,7 @@ export const PROJECTS: Project[] = [
     tags: ['Web', 'API'],
     techStack: ['React', 'Material UI', 'CSS'],
     liveUrl: 'https://weatherinfo24.netlify.app/',
-    githubUrl: 'https://github.com/arman229',
+    githubUrl: 'https://github.com/armanstack',
     category: 'Web'
   },
 
@@ -225,6 +230,84 @@ export const PROCESS_STEPS: ProcessStep[] = [
   { id: '5', title: 'Launch', description: 'Deploying the final solution with robust CI/CD pipelines.', icon: 'Rocket' }
 ];
 
+
+ 
+export const ACHIEVEMENTSIMG = [
+  {
+    id: 1,
+    title: "Silver Medal Achievement",
+    category: "Academic Recognition",
+    description:
+      "Received a silver medal presented by the principal in recognition of my academic achievement.",
+    image: "/images/myimages/receivingcertificate.png",
+    icon: Trophy,
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Question & Answer Session",
+    category: "Participation",
+    description:
+      "Participated in a question-and-answer session, sharing my thoughts and engaging in an interactive learning experience.",
+    image: "/images/myimages/participatequestion.jpeg",
+    icon: Users,
+  },
+  {
+    id: 3,
+    title: "Developer Community Event",
+    category: "Networking",
+    description:
+      "Attended a developer community event to connect with fellow technology enthusiasts and exchange ideas.",
+    image: "/images/myimages/ucp2.jpg",
+    icon: Users,
+  },
+  {
+    id: 4,
+    title: "AI Learning Experience",
+    category: "Learning",
+    description:
+      "Participated in an AI-focused learning experience and explored concepts related to artificial intelligence.",
+    image: "/images/myimages/aisko.png",
+    icon: Brain,
+  },
+  {
+    id: 5,
+    title: "University Technology Event",
+    category: "Tech Community",
+    description:
+      "Participated in a university technology event and engaged with the local developer community.",
+    image: "/images/myimages/bnu.jpg",
+    icon: GraduationCap,
+  },
+  {
+    id: 6,
+    title: "Professional Networking",
+    category: "Networking",
+    description:
+      "Connected with people in the technology community and explored opportunities for learning and collaboration.",
+    image: "/images/myimages/daftar.jpeg",
+    icon: Users,
+  },
+  {
+    id: 7,
+    title: "Agentic AI Learning Session",
+    category: "Artificial Intelligence",
+    description:
+      "Attended an Agentic AI session and learned about intelligent agents, their capabilities, and real-world applications.",
+    image: "/images/myimages/agenticai.jpg",
+    icon: Brain,
+    featured: true,
+  },
+  {
+    id: 8,
+    title: "Agentic AI & Developer Event",
+    category: "Technology Event",
+    description:
+      "Participated in a technology event focused on Agentic AI and explored how AI-driven solutions can address real-world problems.",
+    image: "/images/myimages/armantkxel.png",
+    icon: Code2,
+  },
+];
 
 
 export const CERTIFICATES: Certificate[] = [

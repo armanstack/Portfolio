@@ -73,7 +73,7 @@ function AboutSection() {
           {/* ================= SOCIAL LINKS ================= */}
           <div className="my-8 flex items-center gap-6">
             <Link
-              href="https://github.com/arman229"
+              href="https://github.com/armanstack"
               target="_blank"
               className="text-pink-500 hover:scale-125 transition-all"
             >
@@ -109,7 +109,7 @@ function AboutSection() {
             </Link>
 
             <a
-              href="https://raw.githubusercontent.com/arman229/arman229/master/Arman_Ashraf_AI_FullStack_Engineer.pdf"
+              href="https://raw.githubusercontent.com/armanstack/armanstack/master/Arman_Ashraf_AI_FullStack_Engineer.pdf"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 text-sm font-semibold text-white hover:gap-3 transition-all"

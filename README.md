@@ -90,9 +90,9 @@ I specialize in **Python**, **FastAPI**, **OpenAI Agents SDK**, **CLIP-based vis
 
 📧 **Email:** [armanashraf015@gmail.com](mailto:armanashraf015@gmail.com)  
 💼 **LinkedIn:** [Arman Ashraf](https://www.linkedin.com/in/arman-ashraf/)  
-💻 **GitHub:** [arman229](https://github.com/arman229)  
+💻 **GitHub:** [armanstack](https://github.com/armanstack)  
 🌐 **Portfolio:** [Visit Portfolio](https://armanashrafportfolio.vercel.app/)  
-📄 **Resume:** [Download PDF](https://raw.githubusercontent.com/arman229/arman229/master/Arman_Ashraf_AI_FullStack_Engineer.pdf)
+📄 **Resume:** [Download PDF](https://raw.githubusercontent.com/armanstack/armanstack/master/Arman_Ashraf_AI_FullStack_Engineer.pdf)
 
 ---
 

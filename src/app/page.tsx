@@ -15,6 +15,7 @@ import { MyBlog } from "./components/myblogs";
 import { CertificateCarousel } from "./components/certificate";
 import Eduction from "./components/education";
 import { Courses } from "./components/courses";
+import { AchievementsComp } from "./components/my_achivements";
 export default function Home() {
   const [filter, setFilter] = useState<string>("All");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,6 +30,7 @@ export default function Home() {
       <Courses />
       <CertificateCarousel />
       <Eduction />
+      <AchievementsComp/>
       <MyBlog />
       <ContactForm />
       <Footer />

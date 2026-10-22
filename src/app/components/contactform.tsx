@@ -49,7 +49,7 @@ export const ContactForm = () => {
                       href="https://www.linkedin.com/in/arman-ashraf/"
                       target="_blank"
                     >
-                      Arman Ashraf
+                    /arman-ashraf
                     </Link>
                   </div>
                 </div>

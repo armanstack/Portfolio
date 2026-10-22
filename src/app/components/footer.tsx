@@ -75,7 +75,7 @@ function Footer() {
 
           <div className="flex space-x-4">
             <Link
-              href="https://github.com/arman229"
+              href="https://github.com/armanstack"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-indigo-600 transition-all border border-slate-700"

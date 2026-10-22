@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const MyBlog = () => {
   return (
-    <section id="blog" className="py-24 bg-[#0a0f1e]">
+    <section id="blog" className="py-24 bg- [#0a0f1e]">
       <div className="container mx-auto px-6  max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-12">
           <h2 className="text-4xl font-bold">Latest Articles</h2>
